@@ -1,0 +1,1267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.linea_b{
+    width: 10%;
+    height: 5px;
+    background-color: white;
+    margin: 5px auto 0 auto;
+}
+
+.secc-secc{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.scc-fondo-princ {
+    width: 100%;
+    height: 40vh;
+    margin: 0;
+    padding: 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/2149346636.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.scc-fondo-princ::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 31, 155, 0.7); /* Color negro con opacidad del 50% */
+}
+
+
+.container-p1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: ;
+}
+
+
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+}
+
+.scc-fondo-princ p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+.container-p2 {
+    width: 100%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+    position: relative;
+    top: 0px;
+    background-image: linear-gradient(to right, #0069da, #4faff0);
+}
+
+
+.cont-p2-pos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+
+.columna1{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 0;
+    background-color: ;
+
+}
+
+.columna2{
+    width: 100%;
+    margin-top: 8px;
+    padding: 0;
+    background-color: ed;
+}
+
+.txt-caja1 {
+    text-align: start; /* Alinear texto a la izquierda dentro del contenedor */
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+/* sec 2 */
+
+.secc-esp{
+    width: 100%;  
+    padding: 40px 0;
+    position: relative;
+    top: 0px;
+    background-color: ;   
+}
+
+.container-secc2 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: ;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
+
+.text_secc2{
+    margin: 16px 0 0 0;
+}
+
+.linea{
+    width: 10%;
+    height: 5px;
+    background-color: blue;
+    margin: 5px auto;
+}
+
+
+/* seccion3*/
+.secc{
+    width: 100%;  
+    padding: 40px 0;
+    background-color: ;   
+}
+.container-secc {
+width: 90%;
+margin: 0 auto;
+overflow: hidden;
+background-color: ;
+}
+
+/*
+.img-secc3{
+width: 100%; 
+margin: 20px auto 20px auto; 
+border-radius: 10px; 
+height: auto; 
+}
+*/
+
+.caja-mov{
+width: 100%;
+margin: 30px 0 0 0;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: start;
+background-color: ;
+
+}
+
+.caja-txt1{
+background-color: ;
+width: 100%;
+height: auto;
+margin-bottom: 15px;
+
+}
+
+.caja-txt2{
+background-color: ;
+width: 100%;
+height: auto;
+}
+
+.txt_estilos_p{
+color: black;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+.txt_position_p{
+text-align: start;
+}
+
+/* seccion 4 */
+
+.secc-secc-2{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: ;
+}
+
+.secc-secc-2 > .scc-fondo-princ2  {
+    width: 100%;
+    height: 30vh;
+    margin: 0;
+    padding: 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/2149346636.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.secc-secc-2 > .scc-fondo-princ2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 31, 155, 0.7); /* Color negro con opacidad del 50% */
+}
+
+.secc-secc-2 > .container-q2 {
+    width: 100%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+    position: relative;
+    top: 0px;
+    background-image: linear-gradient(to right, #0069da, #4faff0);
+}
+
+.secc-secc-2 > .cont-q2-pos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-cc1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    background-color: ;
+
+}
+
+.container-cc1 h2{
+    color: white;
+}
+
+.container-cc1 a{
+    margin-top: 15px;
+    text-align: center; 
+    color: white; 
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.container-cc2 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 100%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+
+    background-image: linear-gradient(to right, #0069da, #4faff0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0px;
+
+}
+
+
+
+/* seccion conoce y perfiles */
+
+
+.scc-fondo-princ22 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/2149346636.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
+.scc-fondo-princ22::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 31, 155, 0.7); /* Color negro con opacidad del 50% */
+}
+.container-c1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    background-color: ;
+
+}
+
+.container-c1 h2{
+    color: aqua;
+}
+
+.container-c1 a{
+    margin-top: 15px;
+    text-align: center; 
+    color: white; 
+    font-weight: 500;
+    font-size: 16px;
+
+
+}
+
+.container-c2 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+
+    background-color: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.columna-sub{
+    width: 100%;
+    background-color: ;
+    margin: 0;
+}
+
+.columna-sub h2{
+    color: white;
+}
+
+.columna-perf{
+    width: 100%;
+    background-color: ;
+    margin: 30px auto 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.col1:first-child{
+ background: ;
+ width: 80% ;
+ margin: 0 auto 8px auto;
+ padding: 0;
+}
+
+.col1{
+    background-color: ;
+    width: 80% ;
+    margin: 8px auto;
+    padding: 0;
+   }
+
+.col1:last-child{
+    background: ;
+    width: 80% ;
+    margin: 8px auto 0 auto;
+    padding: 0;
+   }
+
+
+.col1 img{
+    width: 40%;
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+
+}
+
+.col1 p{
+    font-size: 17px;
+    text-align: center;
+    cursor: text;
+    font-weight: 500;
+    color: white;
+}
+
+
+/* secc 5 
+
+--------
+
+*/
+
+/* seccion 6  */
+/* seccion penultima */
+
+.scc-fondo-princ3 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/img-fondo-4.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+
+}
+
+.scc-fondo-princ3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 31, 155, 0.8); /* Color negro con opacidad del 50% */
+}
+
+.container-d1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    background-color: ;
+
+}
+
+.container-d1 h2{
+    color: white;
+}
+
+.container-d1 p {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+
+/* seccion ultima */
+
+.scc-fondo-princ4 {
+    width: 100%;
+    height: auto;
+    margin: 40px 0 0 0;
+    padding: 30px 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/img-fondo-4.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+
+}
+
+.scc-fondo-princ4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 31, 155, 0.8); /* Color negro con opacidad del 50% */
+}
+
+.container-secc-ult {
+    z-index: 1;
+    width: 90%;
+    margin: 20px auto 0 auto;
+    overflow: hidden;
+    background-color: ;
+}
+
+.container-secc-ult .caja-mov .caja-txt1 p {
+    color: white; 
+}
+
+
+
+/* ---------------------------------------------------
+------------------------------------------------------
+----------------------------------------------------*/
+@media ((min-width:669px) and (max-width:968px)) {
+    .secc-secc{
+        
+    }
+
+    .scc-fondo-princ {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .secc-secc-2 .scc-fondo-princ2 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .linea_b{
+        width: 10%;
+        height: 10px;
+        background-color: white;
+        margin: 5px auto 0 auto;
+    }
+
+    .scc-fondo-princ p{
+        font-size: 22px;
+        margin-top: 10px;
+    
+    }
+
+    .cont-p2-pos{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+.secc-secc-2 .cont-q2-pos{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 16px;
+    }
+    
+    .columna1{
+        width: 100%;
+        margin-bottom: 8px;
+        padding: 0;
+        background-color: ;
+    
+    }
+    
+    .columna2{
+        width: 100%;
+        margin-top: 8px;
+        padding: 0;
+        background-color: ;
+    }
+    
+    .txt-caja1 {
+        font-size: 15px;
+    }
+
+
+    /* sec 2 */
+
+    .secc-esp{
+        width: 100%;
+        padding: 50px 0;
+    }
+    
+    .container-secc2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .linea{
+        width: 10%;
+        height: 10px;
+        margin: 5px auto 0 auto;
+    }
+
+    .text_secc2{
+        margin: 20px 0 0 0;
+    }
+
+/* secc 3 */
+    .secc{
+        width: 100%;  
+        padding: 50px 0;
+    }
+    .container-secc {
+    width: 90%;
+    margin: 0 auto;
+    }
+
+    /*
+    .img-secc3{
+        display: block;
+        width: 80%; 
+        margin: 20px auto 20px auto; 
+        border-radius: 10px; 
+        height: auto; 
+    }
+    */
+
+    .caja-mov{
+    width: 100%;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    
+    .caja-txt1{
+    width: 50%;
+    height: auto;
+    padding-right: 15px;
+    
+    }
+    
+    .caja-txt2{
+    width: 50%;
+    height: auto;
+    padding-left: 15px;
+    }
+    
+
+    .txt_estilos_p{
+    font-size: 15px;
+    }
+
+    /* secc 4 */
+
+    .secc-secc-2 .scc-fondo-princ2 {
+        width: 100%;
+        height: 30vh;
+        margin: 0;
+        padding:  0; /* Ajusta el padding superior e inferior según necesites */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+    }
+
+    
+    
+    .secc-secc-2 .scc-fondo-princ2::after {
+    }
+    
+    .secc-secc-2 .cont-q2-pos{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 16px;
+    }
+
+    .container-cc1 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%;
+        
+    
+    }
+    
+    .container-cc1 h2{
+    }
+    
+    .container-cc1 a{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    
+    .container-cc2 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 100%; /* Ajusta el ancho según prefieras */
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+        padding: 16px 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+        position: relative;
+        top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 0;
+    
+    }
+    
+    .columna-sub{
+       
+    }
+    
+    .columna-sub h2{
+    
+    }
+    
+    .columna-perf{
+        width: 100%;
+        margin: 40px auto 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    
+    .col1:first-child{
+     width: 60% ;
+     margin: 0 auto 15px auto;
+     padding: 0;
+    }
+    
+    .col1{
+        width: 60% ;
+        margin: 15px auto;
+        padding: 0;
+       }
+    
+    .col1:last-child{
+        width: 60% ;
+        margin: 15px auto 0 auto;
+        padding: 0;
+       }
+    
+    
+    .col1 img{
+        width: 50%;
+        max-width: 300px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .col1 p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+
+
+    /* seccion penultima */
+
+.scc-fondo-princ3 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 50px 0; /* Ajusta el padding superior e inferior según necesites */
+
+}
+
+.scc-fondo-princ3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container-d1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.container-d1 h2{
+  }
+
+.container-d1 p {
+    font-size: 15px;
+    margin-top: 24px;
+
+}
+
+/* seccion ul */
+
+.scc-fondo-princ4 {
+    width: 100%;
+    height: auto;
+    margin: 40px 0 0 0;
+    padding: 50px 0; /* Ajusta el padding superior e inferior según necesites */
+
+}
+
+.scc-fondo-princ4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container-secc-ult {
+    z-index: 1;
+    width: 90%;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+}
+
+}
+
+
+
+/* ---------------------------------------------------
+------------------------------------------------------
+----------------------------------------------------*/
+@media (min-width:969px) {
+ 
+    .secc-secc{
+    
+
+    }
+    
+    .scc-fondo-princ {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .scc-fondo-princ::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60vh;
+        rgba(10, 31, 155, 0.7);
+    }
+
+    h1{
+        font-size: 64px;
+        font-weight: 700;
+    }
+
+    .linea_b{
+        width: 10%;
+        height: 10px;
+        background-color: white;
+        margin: 5px auto 0 auto;
+    }
+    .scc-fondo-princ p{
+        font-size: 26px;
+    
+    }
+
+    .container-p2 {
+        width: 90%; /* Ajusta el ancho según prefieras */
+        max-width: 1200px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+        margin: -100px auto 0;
+        border-radius: 10px;
+    }
+
+    .cont-p2-pos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: auto;
+        align-items: stretch;
+
+    }
+
+    .columna1{
+        background-color: ;
+        width: 50%;
+        height: auto;
+        padding: 16px;
+        border-right: 1px solid white;
+        margin: 0;
+    }
+
+    .columna2{
+        background-color: ;
+        width: 50%;
+        height: auto;
+        padding: 16px;
+        border-left: 1px solid white;
+        margin: 0;
+
+    }
+    
+    .txt-caja1 {
+        text-align: justify; /* Alinear texto a la izquierda dentro del contenedor */
+        font-size: 16px;
+    } 
+    
+    /* sec 2 */
+
+     .secc-esp{
+        padding: 60px 0 50px 0;
+    }
+    
+    .container-secc2 {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .linea{
+        width: 10%;
+        height: 10px;
+        background-color: blue;
+        margin: 5px auto 0 auto;
+    }
+
+    .text_secc2{
+        margin: 25px 0 0 0;
+    }
+
+
+
+      /* seccion3*/
+      .secc{
+        width: 100%;  
+        padding: 40px 0 60px;
+
+    }
+    .container-secc {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    /*
+    .img-secc3{
+        display: block;
+        width: 60%; 
+        max-width: 700px;
+        margin: 20px auto 20px auto; 
+        border-radius: 10px; 
+        height: auto; 
+    }
+    */
+
+    .caja-mov{
+        width: 100%;
+        margin: 40px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    
+        
+        .caja-txt1{
+        width: 50%;
+        height: auto;
+        padding-right: 25px;
+        }
+        
+        .caja-txt2{
+        width: 50%;
+        height: auto;
+        padding-left: 25px;
+        }
+
+    .txt_estilos_p{
+    font-size: 16px;
+    }
+
+
+    /* secc 4 */
+
+    .secc-secc-2{
+       
+    }
+
+    .secc-secc-2 .scc-fondo-princ2 {
+        width: 100%;
+        height: 50vh;
+        margin: 0;
+        padding:  0; /* Ajusta el padding superior e inferior según necesites */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    
+    
+    .secc-secc-2 .scc-fondo-princ2::after {
+    }
+    
+    /*
+    .secc-secc-2 .cont-q2-pos{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 16px;
+    }
+        */
+
+    .container-cc1 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%;
+        max-width: 1200px;
+        height: auto;
+        margin-bottom: 60px;
+    
+    }
+    
+
+    .container-cc1 h2{
+    }
+    
+    .container-cc1 a{
+        font-weight: 500;
+        font-size: 22px;
+    }
+    
+    .container-cc2 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%; /* Ajusta el ancho según prefieras */
+        max-width: 1200px;
+        margin: -100px auto 0 auto; /* Centra el contenedor horizontalmente */
+        padding: 16px 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 10px;
+        position: relative;
+        top: 0px;
+    
+    }
+    
+    
+    .columna-sub{
+       
+    }
+    
+    .columna-sub h2{
+    
+    }
+    
+    .columna-perf{
+        width: 100%;
+        margin: 30px auto 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    
+    .col1:first-child{
+     width: 22%;
+     margin: 0 auto;
+     padding: 0;
+    }
+    
+    .col1{
+        width: 22% ;
+        margin: 0 auto;
+        padding: 0;
+       }
+    
+    .col1:last-child{
+        width: 22% ;
+        margin: 0 auto;
+        padding: 0;
+       }
+    
+    
+    .col1 img{
+        width: 50%;
+        max-width: 200px;
+        margin-bottom: 15px;
+    
+    }
+    
+    .col1 p{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    /* seccion 5 */
+
+
+        /* seccion 6 */
+
+
+    .scc-fondo-princ3 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 60px 0; /* Ajusta el padding superior e inferior según necesites */
+
+    
+    }
+    
+    .scc-fondo-princ3::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-d1 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%;
+        max-width: 1200px;
+        height: auto;
+        margin: 0 auto;
+    
+    }
+
+    
+    .container-d1 h2{
+    
+    }
+
+    .container-d1 p {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+
+
+
+    /* */
+
+    .scc-fondo-princ4{
+        width: 100%;
+        height: auto;
+        margin: 40px 0 0 0;
+        padding: 60px 0; /* Ajusta el padding superior e inferior según necesites */
+
+    
+    }
+    
+    .scc-fondo-princ4::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+       
+    
+.container-secc-ult {
+    z-index: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+    background-color: ;
+}
+
+/*
+
+.container-secc-ult > .caja-mov > .caja-txt1{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container-secc-ult > .caja-mov > .caja-txt1 > p{
+   font-weight: 500;
+}
+
+*/
+
+}

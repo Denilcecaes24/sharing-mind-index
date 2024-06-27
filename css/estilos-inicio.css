@@ -1,0 +1,1358 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.secc-secc{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.scc-fondo-princ {
+    width: 100%;
+    height: 40vh;
+    margin: 0;
+    padding: 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scc-fondo-princ::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+}
+
+.container-p1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: ;
+}
+
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+}
+
+.scc-fondo-princ p{
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+
+
+}
+
+
+
+
+.container-p2 {
+    width: 100%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+    position: relative;
+    top: 0px;
+    background-color: rgb(14, 14, 14);
+
+}
+
+.txt-caja1 {
+    text-align: center; /* Alinear texto a la izquierda dentro del contenedor */
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+
+/* seccion conoce y perfiles */
+
+.scc-fondo-princ2 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+
+}
+
+.scc-fondo-princ2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+}
+
+.container-c1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto 30px auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    background-color: blue;
+
+}
+
+.container-c1 h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container-c1 a{
+    margin-top: 10px;
+    text-align: center; 
+    color: white; 
+    font-weight: 500;
+    font-size: 16px;
+
+
+}
+
+.container-c2 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%; /* Ajusta el ancho según prefieras */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+    position: relative;
+    top: 0px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.columna-sub{
+    width: 100%;
+    background-color: red;
+    margin: 0;
+}
+
+.columna-sub h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.columna-perf{
+    width: 100%;
+    background-color: pink;
+    margin: 20px auto 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.col1:first-child{
+ background: white;
+ width: 80% ;
+ margin: 0 auto 8px auto;
+ padding: 0;
+}
+
+.col1{
+    background-color: greenyellow;
+    width: 80% ;
+    margin: 8px auto;
+    padding: 0;
+   }
+
+.col1:last-child{
+    background: white;
+    width: 80% ;
+    margin: 8px auto 0 auto;
+    padding: 0;
+   }
+
+
+.col1 img{
+    width: 50%;
+    max-width: 200px;
+
+}
+
+.col1 p{
+    font-size: 19px;
+    text-align: center;
+    cursor: text;
+    font-weight: 600;
+}
+
+
+
+
+/* seccion penultima */
+
+.scc-fondo-princ3 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+
+}
+
+.scc-fondo-princ3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+}
+
+.container-d1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    background-color: blue;
+
+}
+
+.container-d1 h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container-d1 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+/* seccion 2 */
+
+.secc-esp{
+    width: 100%;  
+    padding: 40px 0;
+    position: relative;
+    top: 0px;
+    background-color: ;   
+}
+
+.container-secc2 {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: ;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* seccion3*/
+.secc{
+        width: 100%;  
+        padding: 40px 0;
+        background-color: ;   
+}
+.container-secc {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: ;
+}
+
+.img-secc3{
+    width: 100%; 
+    margin: 20px auto 20px auto; 
+    border-radius: 10px; 
+    height: auto; 
+}
+
+.caja-mov{
+    width: 100%;
+    margin: 30px 0 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: ;
+
+}
+
+.caja-txt1{
+background-color: ;
+width: 100%;
+height: auto;
+margin-bottom: 15px;
+
+}
+
+.caja-txt2{
+background-color: ;
+width: 100%;
+height: auto;
+}
+
+.txt_estilos_p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.txt_position_p{
+    text-align: start;
+}
+
+/* seccion 4 */
+.secc-4{
+    width: 100%;  
+    padding: 40px 0;
+    background: linear-gradient(90deg, #f6e8ff, #cee7fd, #dbf4e9);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 5s ease-in-out infinite;
+
+   }
+
+   @keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+
+}
+
+.container-secc-g{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+   }
+
+.link_s4{
+    text-align: center; color: blue; font-weight: 500;font-size: 16px;
+}
+
+/* 5 */
+
+.secc-esp2{
+    width: 100%;  
+    padding: 40px 0;
+    position: relative;
+    top: 0px;
+    background-color: ;   
+}
+
+
+/* sec 6 */
+
+.secc-6{
+    width: 100%;  
+    padding: 40px 0;
+    background-color: ;   
+}
+
+/* secion --- */
+
+.secc-ult{
+    width: 100%;  
+    padding: 40px 0;
+    background-color: ;
+}
+
+.cont-div{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(122, 122, 122, 0.4);        
+}
+
+.cuadro_texto{
+    width: 100%;
+    padding: 0;
+    background-color: ;
+    margin-top: 16px;
+}
+
+.cuadro_texto h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cuadro_imagen{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+    position: relative;   
+
+}
+
+
+.cuadro_imagen::after {
+    content: "";
+    position: absolute;
+    top: 50%; /* Ajusta la opacidad desde la mitad hacia abajo */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Gradient blanco transparente a blanco opaco */
+    pointer-events: none; /* Asegúrate de que el degradado no afecte a los eventos del ratón */
+}
+
+.cuadro_imagen img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;    
+}
+
+.cont-div2{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 30px auto 0 auto;
+    overflow: hidden;
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(122, 122, 122, 0.4);        
+}
+
+.cuadro_imagen2{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: ;
+    position: relative;   
+
+}
+
+
+.cuadro_imagen2::after {
+    content: "";
+    position: absolute;
+    top: 50%; /* Ajusta la opacidad desde la mitad hacia abajo */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Gradient blanco transparente a blanco opaco */
+    pointer-events: none; /* Asegúrate de que el degradado no afecte a los eventos del ratón */
+}
+
+.cuadro_imagen2 img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;    
+}
+
+.ali_btn{
+    text-align: start;
+    margin: 16px 0 16px 0;
+   }
+
+   .btn_h{
+    background-color: rgb(87, 0, 168);
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+   }
+
+
+@media ((min-width:669px) and (max-width:968px)) {
+
+    .secc-secc{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .scc-fondo-princ {
+        width: 100%;
+        height: 60vh;
+    
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: 800;
+        color: white;
+    }
+
+    .scc-fondo-princ p{
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+        margin-top: 10px;
+    
+    }
+
+    /* seccion 2 */
+    .secc-esp{
+        padding: 50px 0;
+        position: relative;
+        top: 0px;
+        background-color: ;
+    }
+    
+    .container-secc2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    /* seccion3*/
+    .secc{
+        width: 100%;  
+        padding: 50px 0;
+    }
+    .container-secc {
+    width: 90%;
+    margin: 0 auto;
+    }
+
+    .img-secc3{
+        display: block;
+        width: 80%; 
+        margin: 20px auto 20px auto; 
+        border-radius: 10px; 
+        height: auto; 
+    }
+
+    .caja-mov{
+    width: 100%;
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: ;
+    }
+
+    
+    .caja-txt1{
+    background-color: ;
+    width: 50%;
+    height: auto;
+    padding-right: 15px;
+    
+    }
+    
+    .caja-txt2{
+    background-color: ;
+    width: 50%;
+    height: auto;
+    padding-left: 15px;
+    }
+    
+
+    .txt_estilos_p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+
+    }
+
+    /* seccion 4 */
+
+    .secc-4{
+        padding: 50px 0;
+       }
+
+    .container-secc-g{
+        width: 90%;
+        margin: 0 auto;
+       }
+    
+    .link_s4{
+        font-size: 22px;
+    }
+
+    /* 5 */
+    .secc-esp2{
+        padding: 50px 0;
+        position: relative;
+        top: 0px;
+        background-color: ;
+    }
+
+    /* sec 6 */
+     .secc-6{
+        width: 100%;  
+        padding: 50px 0;
+    }
+
+    /* seccion ult */
+
+    .secc-ult{
+        width: 100%;  
+        padding: 50px 0;
+    }
+
+    .cuadro_texto h3{
+        margin-top: 8px;
+        font-size: 24px;
+    }
+
+    .ali_btn{
+        margin: 16px 0 16px 0;
+       }
+    
+       .btn_h{
+        font-size: 16px;
+       }
+
+
+
+/* perf */
+       .scc-fondo-princ2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 50px 0; /* Ajusta el padding superior e inferior según necesites */
+        background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center; /* Alinear contenido al centro */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+    
+    }
+    
+    .scc-fondo-princ2::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+    }
+    
+    .container-c1 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%;
+        height: auto;
+        margin: 0 auto 30px auto;
+        
+    
+    }
+    
+    .container-c1 h2{
+        font-size: 36px;
+        font-weight: 600;
+
+    }
+    
+    .container-c1 a{
+        font-weight: 500;
+        font-size: 19px;
+    
+    
+    }
+    
+    .container-c2 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%; /* Ajusta el ancho según prefieras */
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+        padding: 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+        position: relative;
+        top: 0px;
+        background-color: green;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .columna-sub{
+       
+    }
+    
+    .columna-sub h2{
+        font-size: 36px;
+        font-weight: 600;
+        color: white;
+        text-align: center;
+    }
+    
+    .columna-perf{
+        width: 100%;
+        background-color: pink;
+        margin: 20px auto 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    
+    .col1:first-child{
+     background: white;
+     width: 60% ;
+     margin: 0 auto 8px auto;
+     padding: 0;
+    }
+    
+    .col1{
+        background-color: greenyellow;
+        width: 60% ;
+        margin: 8px auto;
+        padding: 0;
+       }
+    
+    .col1:last-child{
+        background: white;
+        width: 60% ;
+        margin: 8px auto 0 auto;
+        padding: 0;
+       }
+    
+    
+    .col1 img{
+        width: 50%;
+        max-width: 200px;
+    
+    }
+    
+    .col1 p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+
+    /* penultima seccion */
+
+    
+/* seccion penultima */
+
+.scc-fondo-princ3 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 50px 0; /* Ajusta el padding superior e inferior según necesites */
+    background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center; /* Alinear contenido al centro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+
+}
+
+.scc-fondo-princ3::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+}
+
+.container-d1 {
+    z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center; /* Alinear contenido al centro */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    background-color: blue;
+
+}
+
+.container-d1 h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.container-d1 p {
+    font-size: 15px;
+}
+    
+
+}
+
+@media (min-width:969px) {
+
+    .secc-secc{
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background-color: ;
+
+    }
+    
+    .scc-fondo-princ {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .scc-fondo-princ::after {
+        content: "";
+        position: absolute;
+        top: 89px;
+        left: 0;
+        width: 100%;
+        height: 60vh;
+        background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+    }
+
+    h1{
+        font-size: 64px;
+        font-weight: 800;
+    }
+
+    .scc-fondo-princ p{
+        font-size: 26px;
+    
+    }
+
+    .container-p2 {
+        width: 90%; /* Ajusta el ancho según prefieras */
+        max-width: 1200px;
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+        margin: -100px auto 0;
+        background-color: rgb(14, 14, 14);
+        border-radius: 10px;
+    
+    }
+    
+    .txt-caja1 {
+        text-align: center; /* Alinear texto a la izquierda dentro del contenedor */
+        font-weight: 600;
+        font-size: 18px;
+        color: white;
+    }
+
+    /* seccion 2 */
+    .secc-esp{
+        padding: 50px 0 60px 0;
+        background-color: ;
+
+    }
+    
+    .container-secc2 {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+     /* seccion3*/
+     .secc{
+        width: 100%;  
+        padding: 60px 0;
+        background-color: ;
+
+    }
+    .container-secc {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: ;
+    }
+
+    .img-secc3{
+        display: block;
+        width: 60%; 
+        max-width: 700px;
+        margin: 20px auto 20px auto; 
+        border-radius: 10px; 
+        height: auto; 
+    }
+
+    .caja-mov{
+        width: 100%;
+        margin: 30px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: ;
+        }
+    
+        
+        .caja-txt1{
+        background-color: ;
+        width: 50%;
+        height: auto;
+        padding-right: 25px;
+        
+        }
+        
+        .caja-txt2{
+        background-color: ;
+        width: 50%;
+        height: auto;
+        padding-left: 25px;
+        }
+
+    .txt_estilos_p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+
+    }
+
+     /* seccion 4 */
+
+     .secc-4{
+        padding: 60px 0;
+      
+       }
+
+     .container-secc-g{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+       }
+    
+    .link_s4{
+        font-size: 22px;
+    }
+
+    /* 5 */
+
+    .secc-esp2{
+        padding: 60px 0;
+
+    }
+
+    /* sec 6 */
+    .secc-6{
+        width: 100%;  
+        padding: 60px 0;
+    }
+
+    /* seccion -- */
+    .secc-ult{
+        width: 100%;  
+        padding: 60px 0;
+    }
+
+    .cont-div{
+        width: 90%;
+        max-width: 1200px;
+        height: auto;
+        padding: 16px;
+        margin: 0 auto 30px auto;        
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: ;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px rgba(122, 122, 122, 0.4); /* Sombra con desplazamiento horizontal y vertical de 0px, desenfoque de 10px y opacidad de 0.3 */
+        
+    }
+
+    .cuadro_texto{
+        width: 60%;
+        max-width: 720px;
+        padding: 0;
+        background-color: ;
+        margin-top: 0;
+        margin-left: 16px;
+    }
+  
+    .cuadro_texto h3{
+        font-size: 24px;
+    }
+
+    .cuadro_imagen{
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+        padding: 0;
+        background-color: ;
+        position: relative;
+    }
+
+    .cuadro_imagen{
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+        padding: 0;
+        background-color: ;
+        position: relative;
+    }
+    
+    .cuadro_imagen::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 50%; /* Ajusta la opacidad hacia la mitad de la imagen */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Gradient blanco transparente a blanco opaco */
+        pointer-events: none; /* Asegúrate de que el degradado no afecte a los eventos del ratón */
+    }
+
+    .cuadro_imagen img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;    
+    }
+
+    .cont-div2{
+        width: 90%;
+        max-width: 1200px;
+        height: auto;
+        padding: 16px;
+        margin: 30px auto 0 auto;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background-color: ;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px rgba(122, 122, 122, 0.4);
+    }
+
+    .cuadro_imagen2{
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+        padding: 0;
+        background-color: ;
+        position: relative;
+    }
+    
+    .cuadro_imagen2::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 50%; /* Posiciona el degradado a la derecha */
+        bottom: 0;
+        left: 0; /* Ajusta la opacidad hacia la mitad de la imagen */
+        background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)); /* Gradient blanco transparente a blanco opaco */
+        pointer-events: none; /* Asegúrate de que el degradado no afecte a los eventos del ratón */
+    }
+
+    .cuadro_imagen2 img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;    
+    }
+
+    .ali_btn{
+        margin: 16px 0 0 0;
+       }
+    
+       .btn_h{
+        font-size: 17px;
+       }
+
+
+
+
+       .scc-fondo-princ2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 60px 0; /* Ajusta el padding superior e inferior según necesites */
+        background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center; /* Alinear contenido al centro */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+    
+    }
+    
+    .scc-fondo-princ2::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+    }
+    
+    .container-c1 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%;
+        max-width: 1200px;
+        height: auto;
+        margin: 0 auto 30px auto;
+        
+    
+    }
+    
+    .container-c1 h2{
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+    
+    .container-c1 a{
+        font-weight: 500;
+        font-size: 20px;
+    
+    
+    }
+    
+    .container-c2 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 90%; /* Ajusta el ancho según prefieras */
+        max-width: 1200px;
+        margin: 0 auto; /* Centra el contenedor horizontalmente */
+        padding: 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para resaltar el contenedor */
+        position: relative;
+        top: 0px;
+        background-color: green;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .columna-sub{
+       
+    }
+    
+    .columna-sub h2{
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    .columna-perf{
+        width: 100%;
+        background-color: pink;
+        margin: 20px auto 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    
+    .col1:first-child{
+     background: white;
+     width: 22% ;
+     margin: 0 auto;
+     padding: 0;
+    }
+    
+    .col1{
+        background-color: greenyellow;
+        width: 22% ;
+        margin: 0 auto;
+        padding: 0;
+       }
+    
+    .col1:last-child{
+        background: white;
+        width: 22% ;
+        margin: 0 auto;
+        padding: 0;
+       }
+    
+    
+    .col1 img{
+        width: 50%;
+        max-width: 200px;
+    
+    }
+    
+    .col1 p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+        
+
+    .scc-fondo-princ3 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 60px 0; /* Ajusta el padding superior e inferior según necesites */
+        background-image: url(../img/4122.jpg); /* Color de fondo opcional */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center; /* Alinear contenido al centro */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        position: relative;
+    
+    }
+    
+    .scc-fondo-princ3::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+    }
+    
+    .container-d1 {
+        z-index: 1; /* Asegura que el contenido esté por encima del overlay */
+        width: 65%;
+        max-width: 780px;
+        height: auto;
+        margin: 0 auto;
+        text-align: center; /* Alinear contenido al centro */
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: start;
+        background-color: blue;
+    
+    }
+    
+    .container-d1 h2{
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .container-d1 p {
+        font-size: 16px;
+    }
+        
+        
+    
+
+}

@@ -1,0 +1,405 @@
+.container-secc-esp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: ;
+    margin-top: 10px;
+}
+
+.secc-esp .mySwiper {
+    max-width: 1200px;
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 0px;
+}
+
+.secc-esp .container3 {
+    background-color: ;
+    margin: 0 40px 10px 40px;
+    overflow: hidden;
+}
+
+.secc-esp .swiper-slide {
+    /*font-size: 18px;*/
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+    background-color: ;
+    height: auto;
+}
+
+.secc-esp .swiper-slide .box {
+    height: auto;
+    width: 95%;
+    background-color: ;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); /* Añade un sombreado */
+    background-color: ;
+    margin: 5px 0;
+}
+
+.secc-esp .box .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.secc-esp .box .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.secc-esp .box .info {
+    padding: 16px 16px;
+    text-align: start;
+
+}
+
+.secc-esp .box .info h3 {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: text;
+    margin-bottom: 5px;
+    color: rgb(59, 59, 59);
+}
+
+.secc-esp .box .info .txt_test_com {
+    font-size: 20px;
+    text-align: start;
+    cursor: text;
+    font-weight: 800;
+}
+
+.secc-esp .box .info .txt_test_com {
+    font-size: 22px;
+    text-align: start;
+    cursor: text;
+    font-weight: 800;
+}
+
+.secc-esp .box .info .txt_test_com {
+    font-size: 22px;
+    text-align: start;
+    cursor: text;
+    font-weight: 800;
+}
+
+.secc-esp .box .info .txt_test_autor {
+    font-size: 18px;
+    text-align: start;
+    cursor: text;
+    font-weight: 600;
+}
+
+.secc-esp .box .info .txt_test_rol {
+    font-size: 14px;
+    text-align: start;
+    cursor: text;
+    font-weight: 300;
+    color: #565656;
+}
+
+
+
+.secc-esp .box .info p {
+    font-size: 14px;
+    text-align: start;
+    cursor: text;
+}
+
+
+.secc-esp .box .info .btn {
+    margin-top: 10px;
+}
+
+/*
+.secc-esp .swiper-button-next::after {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.secc-esp .swiper-button-prev::after {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.secc-esp .swiper-button-next::after {
+    right: -15px;
+}
+
+.secc .swiper-button-prev::after {
+    left: -15px;
+}
+
+*/
+
+.secc-esp .swiper-button-next,
+.secc-esp .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: blueviolet;
+    z-index: 10; /* Asegura que estén por encima de los slides */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.secc-esp .swiper-button-next:hover,
+.secc-esp .swiper-button-prev:hover {
+    color: blue; /* Cambia el color al pasar el mouse */
+}
+
+.secc-esp .swiper-button-next {
+    right: 5px; /* Ajusta la posición derecha */
+}
+
+.secc-esp .swiper-button-prev {
+    left: 5px; /* Ajusta la posición izquierda */
+}
+.secc-esp .swiper-pagination-bullet{
+   margin-top: 10px;
+   background-color: #090707;
+}
+
+.secc-esp .swiper-pagination-bullet-active{
+    background-color: blue;
+ }
+
+
+
+ /* slider 2 */
+
+ .container-secc-esp2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: ;
+    margin-top: 10px;
+}
+
+.secc-esp2 .mySwiper {
+    max-width: 1200px;
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 0px;
+}
+
+.secc-esp2 .container2 {
+    background-color: ;
+    margin: 0 40px 10px 40px;
+    overflow: hidden;
+}
+
+.secc-esp2 .swiper-slide {
+    /*font-size: 18px;*/
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow: hidden;
+    background-color: ;
+    height: auto;
+}
+
+.secc-esp2 .swiper-slide .box {
+    height: auto;
+    width: 95%;
+    background-color: ;
+    flex-direction: column;
+    border-radius: 10px;
+    /*border: 1px gray solid;*/
+}
+
+.secc-esp2 .box .img {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+    padding-top: 10px;
+    background-color: ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secc-esp2 .box .img img {
+    width: 60%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.secc-esp2 .box .info {
+    padding: 16px 16px;
+    text-align: start;
+    background-color: ;
+
+
+}
+
+.secc-esp2 .box .info h3 {
+    font-size: 20px;
+    font-weight: 600;
+    cursor: text;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.secc-esp2 .box .info .txt_test_com {
+    font-size: 20px;
+    text-align: start;
+    cursor: text;
+    font-weight: 800;
+}
+
+.secc-esp2 .box .info .txt_test_com {
+    font-size: 22px;
+    text-align: start;
+    cursor: text;
+    font-weight: 800;
+}
+
+.secc-esp2 .box .info .txt_test_com {
+    font-size: 22px;
+    text-align: start;
+    cursor: text;
+    font-weight: 800;
+}
+
+.secc-esp2 .box .info .txt_test_autor {
+    font-size: 18px;
+    text-align: start;
+    cursor: text;
+    font-weight: 600;
+}
+
+.secc-esp2 .box .info .txt_test_rol {
+    font-size: 14px;
+    text-align: start;
+    cursor: text;
+    font-weight: 300;
+    color: #565656;
+}
+
+
+
+.secc-esp2 .box .info p {
+    font-size: 19px;
+    text-align: center;
+    cursor: text;
+    font-weight: 600;
+}
+
+
+.secc-esp2 .box .info .btn {
+    margin-top: 10px;
+}
+
+/*
+.secc-esp .swiper-button-next::after {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.secc-esp .swiper-button-prev::after {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.secc-esp .swiper-button-next::after {
+    right: -15px;
+}
+
+.secc .swiper-button-prev::after {
+    left: -15px;
+}
+
+*/
+
+.secc-esp2 .swiper-button-next,
+.secc-esp2 .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    color: blueviolet;
+    z-index: 10; /* Asegura que estén por encima de los slides */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Transición suave del color */
+}
+
+.secc-esp2 .swiper-button-next:hover,
+.secc-esp2 .swiper-button-prev:hover {
+    color: purple; /* Cambia el color al pasar el mouse */
+}
+
+.secc-esp2 .swiper-button-next {
+    right: 5px; /* Ajusta la posición derecha */
+}
+
+.secc-esp2 .swiper-button-prev {
+    left: 5px; /* Ajusta la posición izquierda */
+}
+.secc-esp2 .swiper-pagination-bullet{
+   margin-top: 10px;
+   background-color: #090707;
+}
+
+.secc-esp2 .swiper-pagination-bullet-active{
+    background-color: blueviolet;
+ }
+
+
+ @media ((min-width:669px) and (max-width:968px)) {
+    .secc-esp .box .info h3 {
+        font-size: 22px;
+
+    }
+
+    .secc-esp .box .info p {
+        font-size: 15px;
+    }
+
+    .secc-esp2 .box .info p {
+        font-size: 20px;
+    }
+    
+ }
+
+ @media (min-width:969px) {
+    .secc-esp .box .info h3 {
+        font-size: 22px;
+
+    }
+
+    .secc-esp .box .info p {
+        font-size: 16px;
+    }
+    
+    .secc-esp2 .box .info p {
+        font-size: 22px;
+    }
+ }
